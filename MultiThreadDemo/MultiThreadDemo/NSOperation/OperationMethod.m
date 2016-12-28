@@ -119,7 +119,7 @@ static OperationMethod *instance = nil;
         NSBlockOperation *op2 = [array objectAtIndex:i+1];
         [op2 addDependency:op1];
         
-        //修改 Operation 在队列中的优先级
+        // 修改 Operation 在队列中的优先级
         if (i == 3) {
             [op1 setQueuePriority:NSOperationQueuePriorityHigh];
         }
