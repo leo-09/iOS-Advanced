@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "NSThreadViewController.h"
+#import "NSOperationViewController.h"
 
 @interface ViewController ()
 
@@ -17,13 +18,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (IBAction)nsThread:(id)sender {
@@ -36,7 +35,8 @@
 }
 
 - (IBAction)nsOperation:(id)sender {
-    
+    NSOperationViewController *controller = [[NSOperationViewController alloc] initWithStoryboard];
+    [self.navigationController pushViewController:controller animated:YES];
 }
 
 @end

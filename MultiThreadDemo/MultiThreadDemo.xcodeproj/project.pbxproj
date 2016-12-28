@@ -16,6 +16,13 @@
 		6658F6631E1211AD00209D79 /* NSThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6658F6621E1211AD00209D79 /* NSThreadViewController.m */; };
 		6658F6651E1355C600209D79 /* nsthread.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6658F6641E1355C600209D79 /* nsthread.storyboard */; };
 		6658F6681E135B3100209D79 /* LockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6658F6671E135B3100209D79 /* LockViewController.m */; };
+		6658F66B1E135E7A00209D79 /* NSOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6658F66A1E135E7A00209D79 /* NSOperationViewController.m */; };
+		6658F66D1E135EFC00209D79 /* nsoperation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6658F66C1E135EFC00209D79 /* nsoperation.storyboard */; };
+		6658F6701E13604F00209D79 /* OperationMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 6658F66F1E13604F00209D79 /* OperationMethod.m */; };
+		6658F6731E1362B400209D79 /* SubClassOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6658F6721E1362B400209D79 /* SubClassOperation.m */; };
+		6658F6761E138E3000209D79 /* ConcurrenOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6658F6751E138E3000209D79 /* ConcurrenOperation.m */; };
+		6658F6791E13923E00209D79 /* ConcurrenOperation2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6658F6781E13923E00209D79 /* ConcurrenOperation2.m */; };
+		6658F67C1E139E1B00209D79 /* SerialOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6658F67B1E139E1B00209D79 /* SerialOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +41,19 @@
 		6658F6641E1355C600209D79 /* nsthread.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = nsthread.storyboard; sourceTree = "<group>"; };
 		6658F6661E135B3100209D79 /* LockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockViewController.h; sourceTree = "<group>"; };
 		6658F6671E135B3100209D79 /* LockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LockViewController.m; sourceTree = "<group>"; };
+		6658F6691E135E7A00209D79 /* NSOperationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOperationViewController.h; sourceTree = "<group>"; };
+		6658F66A1E135E7A00209D79 /* NSOperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOperationViewController.m; sourceTree = "<group>"; };
+		6658F66C1E135EFC00209D79 /* nsoperation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = nsoperation.storyboard; sourceTree = "<group>"; };
+		6658F66E1E13604F00209D79 /* OperationMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationMethod.h; sourceTree = "<group>"; };
+		6658F66F1E13604F00209D79 /* OperationMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationMethod.m; sourceTree = "<group>"; };
+		6658F6711E1362B400209D79 /* SubClassOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubClassOperation.h; sourceTree = "<group>"; };
+		6658F6721E1362B400209D79 /* SubClassOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubClassOperation.m; sourceTree = "<group>"; };
+		6658F6741E138E3000209D79 /* ConcurrenOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcurrenOperation.h; sourceTree = "<group>"; };
+		6658F6751E138E3000209D79 /* ConcurrenOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcurrenOperation.m; sourceTree = "<group>"; };
+		6658F6771E13923E00209D79 /* ConcurrenOperation2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcurrenOperation2.h; sourceTree = "<group>"; };
+		6658F6781E13923E00209D79 /* ConcurrenOperation2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcurrenOperation2.m; sourceTree = "<group>"; };
+		6658F67A1E139E1B00209D79 /* SerialOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialOperation.h; sourceTree = "<group>"; };
+		6658F67B1E139E1B00209D79 /* SerialOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerialOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +120,19 @@
 		6658F65F1E1210D400209D79 /* NSOperation */ = {
 			isa = PBXGroup;
 			children = (
+				6658F6691E135E7A00209D79 /* NSOperationViewController.h */,
+				6658F66A1E135E7A00209D79 /* NSOperationViewController.m */,
+				6658F66C1E135EFC00209D79 /* nsoperation.storyboard */,
+				6658F66E1E13604F00209D79 /* OperationMethod.h */,
+				6658F66F1E13604F00209D79 /* OperationMethod.m */,
+				6658F6711E1362B400209D79 /* SubClassOperation.h */,
+				6658F6721E1362B400209D79 /* SubClassOperation.m */,
+				6658F67A1E139E1B00209D79 /* SerialOperation.h */,
+				6658F67B1E139E1B00209D79 /* SerialOperation.m */,
+				6658F6741E138E3000209D79 /* ConcurrenOperation.h */,
+				6658F6751E138E3000209D79 /* ConcurrenOperation.m */,
+				6658F6771E13923E00209D79 /* ConcurrenOperation2.h */,
+				6658F6781E13923E00209D79 /* ConcurrenOperation2.m */,
 			);
 			path = NSOperation;
 			sourceTree = "<group>";
@@ -176,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6658F6571E12109E00209D79 /* LaunchScreen.storyboard in Resources */,
+				6658F66D1E135EFC00209D79 /* nsoperation.storyboard in Resources */,
 				6658F6541E12109E00209D79 /* Assets.xcassets in Resources */,
 				6658F6521E12109E00209D79 /* Main.storyboard in Resources */,
 				6658F6651E1355C600209D79 /* nsthread.storyboard in Resources */,
@@ -194,6 +228,12 @@
 				6658F6491E12109E00209D79 /* main.m in Sources */,
 				6658F6631E1211AD00209D79 /* NSThreadViewController.m in Sources */,
 				6658F6681E135B3100209D79 /* LockViewController.m in Sources */,
+				6658F66B1E135E7A00209D79 /* NSOperationViewController.m in Sources */,
+				6658F67C1E139E1B00209D79 /* SerialOperation.m in Sources */,
+				6658F6701E13604F00209D79 /* OperationMethod.m in Sources */,
+				6658F6731E1362B400209D79 /* SubClassOperation.m in Sources */,
+				6658F6791E13923E00209D79 /* ConcurrenOperation2.m in Sources */,
+				6658F6761E138E3000209D79 /* ConcurrenOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
