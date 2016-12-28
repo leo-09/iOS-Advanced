@@ -15,6 +15,7 @@
 		6658F6571E12109E00209D79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6658F6551E12109E00209D79 /* LaunchScreen.storyboard */; };
 		6658F6631E1211AD00209D79 /* NSThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6658F6621E1211AD00209D79 /* NSThreadViewController.m */; };
 		6658F6651E1355C600209D79 /* nsthread.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6658F6641E1355C600209D79 /* nsthread.storyboard */; };
+		6658F6681E135B3100209D79 /* LockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6658F6671E135B3100209D79 /* LockViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		6658F6611E1211AD00209D79 /* NSThreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSThreadViewController.h; sourceTree = "<group>"; };
 		6658F6621E1211AD00209D79 /* NSThreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSThreadViewController.m; sourceTree = "<group>"; };
 		6658F6641E1355C600209D79 /* nsthread.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = nsthread.storyboard; sourceTree = "<group>"; };
+		6658F6661E135B3100209D79 /* LockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockViewController.h; sourceTree = "<group>"; };
+		6658F6671E135B3100209D79 /* LockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LockViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				6658F6611E1211AD00209D79 /* NSThreadViewController.h */,
 				6658F6621E1211AD00209D79 /* NSThreadViewController.m */,
 				6658F6641E1355C600209D79 /* nsthread.storyboard */,
+				6658F6661E135B3100209D79 /* LockViewController.h */,
+				6658F6671E135B3100209D79 /* LockViewController.m */,
 			);
 			path = NSThread;
 			sourceTree = "<group>";
@@ -188,6 +193,7 @@
 				6658F64C1E12109E00209D79 /* AppDelegate.m in Sources */,
 				6658F6491E12109E00209D79 /* main.m in Sources */,
 				6658F6631E1211AD00209D79 /* NSThreadViewController.m in Sources */,
+				6658F6681E135B3100209D79 /* LockViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

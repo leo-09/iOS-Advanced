@@ -7,6 +7,7 @@
 //
 
 #import "NSThreadViewController.h"
+#import "LockViewController.h"
 
 @interface NSThreadViewController ()
 
@@ -24,6 +25,12 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
+
+- (IBAction)synchronized:(id)sender {
+    LockViewController *controller = [[LockViewController alloc] init];
+    [self.navigationController pushViewController:controller animated:YES];
+}
+
 - (IBAction)downloadBtn:(id)sender {
     [self categoryNSthreadMethod];
 //    [self classNSthreadMethod1];

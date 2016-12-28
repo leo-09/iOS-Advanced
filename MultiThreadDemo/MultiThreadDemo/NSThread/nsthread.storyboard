@@ -31,6 +31,13 @@
                             <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wj4-Ee-vsI">
                                 <rect key="frame" x="10" y="120" width="355" height="537"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gSu-gg-aT0">
+                                <rect key="frame" x="10" y="40" width="355" height="30"/>
+                                <state key="normal" title="同步锁"/>
+                                <connections>
+                                    <action selector="synchronized:" destination="rcw-Le-IV7" eventType="touchUpInside" id="vpo-eo-01E"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -38,6 +45,9 @@
                             <constraint firstItem="QmX-0Y-U6h" firstAttribute="leading" secondItem="CJz-eP-bSu" secondAttribute="leading" constant="20" id="HsE-kl-Ypc"/>
                             <constraint firstAttribute="trailing" secondItem="QmX-0Y-U6h" secondAttribute="trailing" constant="20" id="McB-IW-gwR"/>
                             <constraint firstItem="QmX-0Y-U6h" firstAttribute="top" secondItem="Hr8-Gy-LY9" secondAttribute="bottom" constant="60" id="WX8-PO-c4U"/>
+                            <constraint firstItem="gSu-gg-aT0" firstAttribute="top" secondItem="Hr8-Gy-LY9" secondAttribute="bottom" constant="20" id="Xga-Wh-FEu"/>
+                            <constraint firstAttribute="trailing" secondItem="gSu-gg-aT0" secondAttribute="trailing" constant="10" id="gf3-PF-yyf"/>
+                            <constraint firstItem="gSu-gg-aT0" firstAttribute="leading" secondItem="CJz-eP-bSu" secondAttribute="leading" constant="10" id="meG-GH-blb"/>
                             <constraint firstItem="wj4-Ee-vsI" firstAttribute="top" secondItem="QmX-0Y-U6h" secondAttribute="bottom" constant="10" id="qmZ-ki-5dA"/>
                             <constraint firstItem="Q9T-dn-mSL" firstAttribute="top" secondItem="wj4-Ee-vsI" secondAttribute="bottom" constant="10" id="u1V-Wn-3N2"/>
                             <constraint firstAttribute="trailing" secondItem="wj4-Ee-vsI" secondAttribute="trailing" constant="10" id="vXD-TW-cIi"/>
