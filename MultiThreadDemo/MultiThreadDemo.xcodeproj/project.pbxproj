@@ -23,6 +23,9 @@
 		6658F6761E138E3000209D79 /* ConcurrenOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6658F6751E138E3000209D79 /* ConcurrenOperation.m */; };
 		6658F6791E13923E00209D79 /* ConcurrenOperation2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6658F6781E13923E00209D79 /* ConcurrenOperation2.m */; };
 		6658F67C1E139E1B00209D79 /* SerialOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6658F67B1E139E1B00209D79 /* SerialOperation.m */; };
+		6669AC431E1B459E006E6A0F /* gcd.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6669AC421E1B459E006E6A0F /* gcd.storyboard */; };
+		6669AC461E1B4C0F006E6A0F /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6669AC451E1B4C0F006E6A0F /* GCDViewController.m */; };
+		6669AC491E1B4E89006E6A0F /* GCDMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 6669AC481E1B4E89006E6A0F /* GCDMethod.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +57,11 @@
 		6658F6781E13923E00209D79 /* ConcurrenOperation2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcurrenOperation2.m; sourceTree = "<group>"; };
 		6658F67A1E139E1B00209D79 /* SerialOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialOperation.h; sourceTree = "<group>"; };
 		6658F67B1E139E1B00209D79 /* SerialOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerialOperation.m; sourceTree = "<group>"; };
+		6669AC421E1B459E006E6A0F /* gcd.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = gcd.storyboard; sourceTree = "<group>"; };
+		6669AC441E1B4C0F006E6A0F /* GCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
+		6669AC451E1B4C0F006E6A0F /* GCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
+		6669AC471E1B4E89006E6A0F /* GCDMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDMethod.h; sourceTree = "<group>"; };
+		6669AC481E1B4E89006E6A0F /* GCDMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDMethod.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +121,11 @@
 		6658F65E1E1210D400209D79 /* GCD */ = {
 			isa = PBXGroup;
 			children = (
+				6669AC421E1B459E006E6A0F /* gcd.storyboard */,
+				6669AC441E1B4C0F006E6A0F /* GCDViewController.h */,
+				6669AC451E1B4C0F006E6A0F /* GCDViewController.m */,
+				6669AC471E1B4E89006E6A0F /* GCDMethod.h */,
+				6669AC481E1B4E89006E6A0F /* GCDMethod.m */,
 			);
 			path = GCD;
 			sourceTree = "<group>";
@@ -211,6 +224,7 @@
 				6658F6571E12109E00209D79 /* LaunchScreen.storyboard in Resources */,
 				6658F66D1E135EFC00209D79 /* nsoperation.storyboard in Resources */,
 				6658F6541E12109E00209D79 /* Assets.xcassets in Resources */,
+				6669AC431E1B459E006E6A0F /* gcd.storyboard in Resources */,
 				6658F6521E12109E00209D79 /* Main.storyboard in Resources */,
 				6658F6651E1355C600209D79 /* nsthread.storyboard in Resources */,
 			);
@@ -223,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6669AC491E1B4E89006E6A0F /* GCDMethod.m in Sources */,
 				6658F64F1E12109E00209D79 /* ViewController.m in Sources */,
 				6658F64C1E12109E00209D79 /* AppDelegate.m in Sources */,
 				6658F6491E12109E00209D79 /* main.m in Sources */,
@@ -230,6 +245,7 @@
 				6658F6681E135B3100209D79 /* LockViewController.m in Sources */,
 				6658F66B1E135E7A00209D79 /* NSOperationViewController.m in Sources */,
 				6658F67C1E139E1B00209D79 /* SerialOperation.m in Sources */,
+				6669AC461E1B4C0F006E6A0F /* GCDViewController.m in Sources */,
 				6658F6701E13604F00209D79 /* OperationMethod.m in Sources */,
 				6658F6731E1362B400209D79 /* SubClassOperation.m in Sources */,
 				6658F6791E13923E00209D79 /* ConcurrenOperation2.m in Sources */,
